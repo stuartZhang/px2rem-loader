@@ -1,6 +1,6 @@
 {
-  "name": "px2rem-loader",
-  "version": "0.1.9",
+  "name": "px2rem-loader-stzhang",
+  "version": "0.0.1",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jinjiang/px2rem-loader.git"
+    "url": "https://github.com/stuartZhang/px2rem-loader.git"
   },
   "keywords": [
     "webpack",
     "loader"
   ],
-  "author": "Jinjiang",
+  "author": "Stuart Zhang <stuartpage@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jinjiang/px2rem-loader/issues"
+    "url": "https://github.com/stuartZhang/px2rem-loader/issues"
   },
-  "homepage": "https://github.com/Jinjiang/px2rem-loader",
+  "homepage": "https://github.com/stuartZhang/px2rem-loader",
   "dependencies": {
     "loader-utils": "^1.1.0",
     "px2rem": "^0.5.0"
