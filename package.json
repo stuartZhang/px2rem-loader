@@ -1,6 +1,6 @@
 {
   "name": "px2rem-loader-stzhang",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
