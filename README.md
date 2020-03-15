@@ -17,6 +17,7 @@
 
 1. `webpack`配置工程师需要自己确保目标样式文件没有同时落入多个`remUnit`样式文件组中。
    1. 借助`include`与`exclude`配置项，将遵循不同基准宽度的样式文件（和`.vue`文件）划分到正确的`remUnit`样式文件组中。
+   2. 万一同一个样式文件就同时落入了多个`remUnit`样式文件组里，那么`multiRemUnits`配置数组中第一个匹配的配置对象生效，后续的不生效。
 2. 【多`remUnit`配置项模式】与【单`remUnit`配置项模式】是互斥的。一旦`multiRemUnits`配置项出现在了`rules.options`中，同层级的任何其它配置项都会立即作废。`px2rem-loader-stzhang`加载器仅只会从`multiRemUnits`的配置对象数组中读取配置信息。
 
 ## 安装
