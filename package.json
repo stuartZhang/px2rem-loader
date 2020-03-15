@@ -1,6 +1,6 @@
 {
   "name": "px2rem-loader-stzhang",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "chai": "~3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-minxing": "^1.1.38",
     "mocha": "~2.2.5"
   }
 }
