@@ -8,7 +8,7 @@
 2. 配置项`exclude`显示地指定哪些样式文件不被[px2rem](https://www.npmjs.com/package/px2rem)处理。
    1. 若同一个样式文件同时出现在`include`与`exclude`配置项中，则`exclude`配置项的优先级更高。
    2. 若要调转`include`与`exclude`配置项的优先次序，则需要显示地配置`priorInclude`为`true`。
-   3. 若没有`excludeexclude`配置项，缺省行为：**不排除任何样式文件**。
+   3. 若没有`exclude`配置项，缺省行为：**不排除任何样式文件**。
 3. 允许在同一套`webpack`配置中同时存在多个`remUnit`配置项。并且，每个`remUnit`配置项被应用于不同的样式文件组。
    1. 需要使用配置项`multiRemUnits`来激活此功能。
    2. 此【多`remUnit`配置项模式】与【单`remUnit`配置项模式】是互斥的。
