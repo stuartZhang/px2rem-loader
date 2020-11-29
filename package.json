@@ -1,6 +1,6 @@
 {
   "name": "px2rem-loader-stzhang",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/stuartZhang/px2rem-loader",
   "dependencies": {
     "loader-utils": "^1.1.0",
-    "px2rem": "^0.5.0",
+    "px2rem-stzhang": "^1.0.0",
     "schema-utils": "^2.6.5",
     "underscore": "^1.9.1"
   },
